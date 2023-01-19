@@ -1,0 +1,173 @@
+body{
+    /* background: url("../myimage/form_bg.jpg") no-repeat; */
+    background-size: cover;
+}
+.form_outdiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+.form_inndiv{
+    width: 40%;
+    padding: 15px;
+}
+
+
+/* Side bar  */
+
+
+body{
+    background: blue;
+    background-image: linear-gradient(135.9deg, #7f00ff 16.4%, #e100ff 56.1%) ;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.vertical-nav{
+    min-width: 17rem;
+    width: 17rem;
+    z-index: 2;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    transition: all 0.4s;
+}
+.admin_img{
+    width: 50%;
+}
+.page-content{
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+
+}
+#sidebar.active{
+    margin-left: -17rem;
+}
+#content.active{
+    width: 100%;
+    margin: 0 ;
+    transition: all 0.4s;
+}
+.separator{
+    margin: 3rem 0;
+    border-bottom: 1px dashed white;
+}
+.text-uppercase{
+    letter-spacing: 0.1em;
+}
+.text-gray{
+    color: #aaa;
+}
+.nav-link{
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    background-color: #f3f2f2;
+}
+.text-primary{
+    color: #7579e7 !important;
+}
+
+@media (max-width:768px){
+    #sidebar{
+        margin-left: -17rem;
+    }
+    #sidebar.active{
+        margin-left: 0;
+    }
+    #content{
+        width: 100%;
+        margin: 0;
+    }
+    #content.active{
+        /* margin-left: 17rem; */
+        width: calc(100%-17rem);
+    }
+}
+@media (max-width:440px){
+    .menu_btn button{
+        position: relative;
+        left: 25px;
+    }
+    .menu_btn .fa {
+        margin: 0 !important;
+    }
+    .menu_btn small{
+        display: none;
+    }
+}
+
+/* policy.php  */
+.dataTables_scrollHeadInner,.add_dt {
+    width: 100% !important;
+}
+
+
+
+/* admin_home.php page  */
+
+.table_parent,.a_table_parent{
+    /* overflow-x:auto; */
+    background-color: azure;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.table_delbtn , .table_editbtn{
+    text-align: center;
+    vertical-align: middle;
+}
+.table_delbtn .delete_btn, .table_editbtn .edit_btn{
+    border: none;
+    background: transparent;
+}
+.table_delbtn .delete_btn:hover{
+    color: red;
+}
+.table_editbtn .edit_btn:hover{
+    color: blue;
+}
+
+/* customer.php  */
+/* .cust_img:hover{
+    transition:linear .3s;
+    transform: scale(2);
+    cursor: pointer;
+    z-index: 2000;
+} */
+
+    /* agent request  */
+.noti_bell{
+    cursor: pointer ;
+}
+#agent_request{
+    /* color: white;
+    position: absolute;
+    right: 15.5%;
+    top: 31.2%;
+    font-size: 12px;
+    background: red;
+    border-radius: 50%;
+    padding: 0px 5px; */
+    color: white;
+    position: absolute;
+    right: 31px;
+    top: 6px;
+    font-size: 12px;
+    background: red;
+    border-radius: 50%;
+    padding: 0px 5px;
+}
+
+#back i{
+    cursor: pointer;
+    font-size: 11px;
+    /* background: aqua; */
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid black;
+}

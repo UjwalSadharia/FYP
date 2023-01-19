@@ -1,0 +1,19 @@
+@media (max-width:768px){
+ .profile_right{
+     padding: 0 !important;
+ } 
+ 
+}
+@media (max-width:576px){
+ .profile_right{
+     display: block !important;
+     text-align: center !important;
+     padding: 0 0 20px 0 !important;
+ }  
+ .profile_left{
+    padding: 2vh 0 !important;
+} 
+    .back_icon{
+        padding-bottom: 2px;
+    }
+}

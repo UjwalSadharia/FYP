@@ -1,0 +1,89 @@
+.profile_wrapper{
+    width: 100%;
+    height: 60vh;
+    background: url('../images/bg_footer.png') no-repeat;
+    background-size: cover;
+    background-color: rgba(101, 8, 189, 0.774);
+}
+.user_box{
+    margin: 0 87px !important;
+    
+}
+.user_image{
+    /* border-radius: 50%; */
+    height: 30vh;
+    /* width: 30vh; */
+}
+.profile_wrapper .container_row .profile_left{
+    text-align: center;
+    padding: 5vh 0;
+}
+.profile_wrapper .profile_right{
+    display: flex;
+    align-items: center;
+}
+.profile_wrapper .profile_text h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.profile_wrapper .profile_text h5{
+    font-family: 'Poppins', sans-serif;
+    color: #c4afc5;
+    font-size: 16px;
+}
+.profile_details{
+    background-color: rgb(255 255 255);
+    height: auto;
+    box-shadow: 0px 0 20px rgb(0 0 0 / 36%);
+    border-radius: 15px;
+    padding: 10px 0;
+}
+.user_profile_table{
+    overflow-x: auto;
+}
+.edit_btn,.delete_btn,.nominee_delete_btn,.nominee_edit_btn{
+    background: transparent;
+    border: none;
+    transition: .3s;
+}
+.edit_btn:hover,.nominee_edit_btn:hover{
+    color: blue;
+}
+.delete_btn:hover,.nominee_delete_btn:hover{
+    color: red;
+}
+.profile_wrapper .back_icon{
+    font-size: 28px;
+    color: #d1e7dd;
+    cursor: pointer;
+    transition: .3s;
+}
+.profile_wrapper .back_icon:hover{
+    color: #b8e4d0;;
+}
+
+/* SCROLLBAR  */
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(141, 141, 141);
+    border-radius: 10px;
+  }

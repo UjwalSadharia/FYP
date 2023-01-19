@@ -1,0 +1,238 @@
+@media (max-width:1300px){
+    /* navbar */
+    .header_wrapper .menu_navbar-nav{
+        width: auto;
+    }
+    /* calculator section  */
+    .cal-img {
+        position:relative;
+        top: 12%;
+    }
+    
+        /* admin pannel  */
+        /* #agent_request{
+            position: relative;
+            right: 13.5%;
+            top: -13px;
+            font-size: 15px;
+            
+        }
+     */
+}
+
+/* Navbar  */
+@media (max-width:1230px){
+
+    .header_wrapper .nav-item{
+        /* margin: 0px 5px;s */
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .header_wrapper .nav-item .nav-link{
+        font-size: 16px;
+    }
+    .navbar-nav .nav-links{
+        font-size: 16px;
+        transition: .3s;
+        padding: 14px 24px !important;
+        /* padding: 12px 7px !important; */
+        top: 1px;
+        position: inherit;
+    }
+    .learn-more-btn{
+        padding: 12px 10px !important;
+    }
+
+    /* contact info  */
+    .ourcon_wrapper .con-text h3{
+        font-size: 16px;
+    }
+    .ourcon_wrapper .con-text p{
+        font-size: 13px;
+    }
+
+    /* plans card 
+    .features_wrapper .card_polcat {
+        position: absolute;
+        left: 85%;
+    } */
+    .features_wrapper .ft-1{
+    /* background: url("../myimage/abs.jpg") no-repeat 173% 122%; */
+    border-right: 2px solid #bce9e2;
+    border-top: 2px solid #bce9e2;
+    /* background-position: 173% 122%; */
+    }
+    /* admin pannel  */
+    /* #agent_request{
+        position: relative;
+        right: 16.5%;
+        top: -13px;
+        font-size: 15px;
+        
+    } */
+    
+}
+@media screen and (max-width:1102px){
+    .header_wrapper .nav-item .nav-link{
+        font-size: 14px ;  
+    }
+    .navbar-nav .nav-links{
+        font-size: 14px;
+        transition: .3s;
+    }
+    .learn-more-btn{
+        padding: 12.3px 20px !important;
+    }
+    .user_content .login-form{
+        padding: 50px;
+    }
+
+    /* CHATBOT  */
+    .bot_content{
+        left: 33vw;
+    }
+}
+
+@media (max-width:991px){
+    .header_wrapper .navbar-brand img{
+        width: 180px;
+    }
+    .header_wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header_wrapper .menu-navbar-nav{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .learn-more-btn{
+        padding: 10px 26px !important;
+    }
+    .navbar-nav{
+        /* width: 100%; */
+        /* width: 20%; */
+        margin: auto;
+    }
+    .user_drp{
+        position: relative;
+        top: 8px;
+        right: 0.5%;
+        background-color: #ffd759;
+        border-radius: 10px;
+        line-height: 2;
+        padding: 5px 19px;
+        text-align: center;
+        max-width: 155px;
+        margin: 0 auto;
+    }
+    .sign_up{
+        margin-top: 3px;
+       
+    }
+
+    /* about section  */
+    .about_wrapper .about_number{
+        margin: 15px auto;
+        font-size: 20px;
+    }
+    .about_wrapper .about_title{
+        font-size: 30px;
+    }
+
+    /* calculator section  */
+    .cal-img {
+        position:unset;
+    }
+    /* contact info  */
+    .ourcon_wrapper .con-text h3{
+        font-size: 23px;
+    }
+    .ourcon_wrapper .con-text p{
+        font-size: 15px;
+    }
+
+     /* plans card  */
+     /* .features_wrapper .card_polcat {
+        position: absolute;
+        left: 86%;
+    } */
+    .features_wrapper .ft-1{
+        /* background-position: 0% 0%;
+        padding: 30px;
+        border-radius: 15px;
+        background-size: cover;
+        border-right: 2px solid #bce9e2;
+        filter: hue-rotate(55deg); */
+    }
+    /* admin pannel  */
+    /* #agent_request{
+        position: relative;
+        right: 23.5%;
+        top: -13px;
+        font-size: 15px;
+        
+    } */
+
+    /* .nav-links{
+        max-width: 114px;
+        margin: auto;
+        margin-top: 6px;
+    } */
+
+    .bot_content{
+        left: 30vw;
+    }
+
+    
+}
+
+
+@media (max-width:768px){
+/* chat bot  */
+    .chatbot img{
+        left: 89vw;
+    }
+    .bot_content{
+        left: 26vw;
+    }
+}
+
+@media (max-width:640px){
+    .bot_content{
+        left: 23vw;
+    }
+}
+
+@media (max-width:576px){
+/* chat bot  */
+    .chatbot img{
+        left: 85vw;
+    }
+    .bot_content{
+        left:10%;
+    }
+}
+
+
+
+
+/* price section  */
+@media (max-width:499px){
+    .free_trial .free_title{
+        font-size: 28px;
+    }
+    .footer_wrapper .footer_logo img{
+        max-width: 50%;
+    }
+    /* chat bot  */
+    .chatbot img{
+        left: 82vw;
+    }
+    
+    
+}
+
+
+
+
